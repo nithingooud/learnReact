@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import State from "./states";
+import Crud from "./crud";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <State />
+    {/* <State /> */}
+    <Crud />
   </React.StrictMode>
 );
 
