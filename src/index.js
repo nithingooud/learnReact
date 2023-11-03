@@ -3,13 +3,16 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import State from "./states";
 import Crud from "./crud";
-
+import LifeCycle from "./lifecycle";
+import ApiData from "./ApiData";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <State /> */}
-    <Crud />
+    {/* <Crud />
+    <LifeCycle /> */}
+    <ApiData />
   </React.StrictMode>
 );
 
